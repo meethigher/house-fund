@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fb;
+}
+.main {
+    position:relative;
+    min-height:100vh;
+    min-width:1120px;
+    overflow:hidden;
+    padding:60px 180px 0 0;
+}
+.main .navbar {
+    position:fixed;
+    right:180px;
+    top:0;
+    left:0;
+    background-color: #e9ecef;
+    z-index:1;
+}
+.aside {
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    width:180px;
+    background-color: #172D58;
+    z-index:1;
+}
+.aside .logo {
+    height:180px;
+    padding:25px;
+    text-align:center;
+    background-color: #13172F;
+    box-shadow: inset 0 -1px 3px #000;
+}
+.aside .logo>img {
+    animation:rotate 3s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+a {
+    color:#eee;
+}
+.aside .menu {
+
+}
+.aside .menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #a9b0c2;
+}
+.pagination>.active>a,.aside .menu .active>a {
+    color: #f6f6f6;
+    background-color: #13172F;
+}
+.pagination>li>a {
+    padding:5px 10px;
+    background-color: #fff;
+    color:#000;
+    border: 1px solid #dddddd
+}
+.pagination {
+    border-radius:4px;
+}
+.aside .menu li>ul {
+    background-color: #13172F;
+    box-shadow: inset 0 1px 3px #000;
+    overflow:hidden;
+}
+.aside .menu li>ul>li {
+    margin-top:3px;
+}
+.page-title {
+    font-size:25px;
+}
