@@ -1,0 +1,12 @@
+/*
+https://meethigher.top/
+*/
+#particles-js {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(rgb(19, 23, 47) 10%, rgb(24, 51, 100))
+}
